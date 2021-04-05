@@ -28,13 +28,13 @@ function setup() {
 	groundSprite=createSprite(width/2, height-35, width,10);
 	groundSprite.shapeColor=color(255)
 
-	wall1=createSprite(340,750,100,20);
+	wall1=createSprite(340,610,20,100);
 	wall1.shapeColor=color("red");
 
-	wall2=createSprite(440,750,100,20);
+	wall2=createSprite(400,650,100,20);
 	wall2.shapeColor=color("red");
 
-	wall3=createSprite(390,775,20,100);
+	wall3=createSprite(440,610,20,100);
 	wall3.shapeColor=color("red");
 
 
